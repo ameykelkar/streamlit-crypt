@@ -1,7 +1,5 @@
 # 🎉 streamlit-crypt
 
-[![PyPI Version](https://img.shields.io/pypi/v/streamlit-crypt)](https://pypi.org/project/streamlit-crypt) [![Python Versions](https://img.shields.io/pypi/pyversions/streamlit-crypt)](https://pypi.org/project/streamlit-crypt) [![License](https://img.shields.io/pypi/l/streamlit-crypt)](LICENSE)
-
 A **fun**, **easy-to-use** Streamlit addon that brings modern cryptography to your apps! Encrypt files, text, JSON, and more in just a few lines of code. Perfect for demos, side projects, or even production prototypes.
 
 ---
