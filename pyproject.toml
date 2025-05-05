@@ -1,0 +1,33 @@
+[project]
+name = "streamlit-crypt"
+version = "0.1.0"
+description = "A Streamlit addon for secure file encryption and decryption—effortlessly integrate modern cryptography into your apps with just a few lines of code."
+authors = [
+    {name = "Amey Kelkar",email = "ameyk@live.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"                # Python version
+streamlit = "^1.25.0"          # the Streamlit core
+cryptography = "^40.0"         # AEAD ciphers + KDFs
+toml = "^0.10"                 # reading/writing secrets.toml
+numpy = "^1.25"                # for array support
+pandas = "^2.0"                # for DataFrame support
+Pillow = "^10.0"               # for image payloads
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"                # unit testing
+hypothesis = "^6.90"           # property-based/fuzz testing
+black = "^24.3"                # code formatting
+flake8 = "^6.0"                 # linting
+mypy = "^1.5"                  # static typing checks
+pre-commit = "^3.3"            # git hooks for formatting/linters
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
